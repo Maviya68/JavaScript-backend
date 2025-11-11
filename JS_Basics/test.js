@@ -1,1 +1,3 @@
-console.log("Maviya")
+myName = "make something"
+console.log(myName);
+
