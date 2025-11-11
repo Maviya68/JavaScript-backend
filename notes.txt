@@ -1,0 +1,5 @@
+JavaScript notes : 
+typeof null = object // try verifying this.
+null is a standalone value ? not a type ?
+
+2**2 means 2^2 // JavaScript
