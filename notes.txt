@@ -15,4 +15,9 @@ Heap : non-primitive data types are stored here, when a non-primitve data type v
 
 Use backtick(``) string interpolation => (`-string-${var}-string-`)
 
-// learn all string functions 
+// learn all string functions //done
+
+* To get random integer value between a max num and min num do : 
+(Math.floor(Math.random() * (max-min+1)) + min)
+
+
