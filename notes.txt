@@ -3,3 +3,16 @@ typeof null = object // try verifying this.
 null is a standalone value ? not a type ?
 
 2**2 means 2^2 // JavaScript
+
+comparing values of different data types lead to inconsistent/surprising results => avoid them.
+eg: (null == 0) => avoid these comparisons.
+
+datatype verification : read Ecmascript for that.
+
+Memory : 
+Stack : primitive data types are stored here, it makes a copy when the variable is used in assignation of another variable.
+Heap : non-primitive data types are stored here, when a non-primitve data type var is used in assignation of another variable it gives the same heap ref which is stored in the first variable.
+
+Use backtick(``) string interpolation => (`-string-${var}-string-`)
+
+// learn all string functions 
