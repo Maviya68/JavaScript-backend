@@ -20,6 +20,11 @@ Use backtick(``) string interpolation => (`-string-${var}-string-`)
 * To get random integer value between a max num and min num do : 
 (Math.floor(Math.random() * (max-min+1)) + min)
 
+Understand this..                                                             (because its factor math.random() ranges from 0 to 1 only, and not more than 1)
+*Math.random()*number     => the result will always be a percentage of number=20 ^ hence it will be min = 0 and max = 20(1*20)
+  (0 => 1)    20(say)
+
+
 
 Dates In JS 
 * In the Date(constuctor) we can also set any specific date we want.
@@ -38,3 +43,10 @@ values of object properties can also be accessed thorugh object_name["key_in_str
 why use symbols here ?? => dont know right now.
 
 Object.freeze(object_name) => makes all properties unchangeable in the future / constant maybe
+
+Important{
+Object.keys(obj_name) returns all the keys in a string array.
+Object.values(obj_name) returns all the values in a string array.
+obj_name.hasOwnProperty() => tells us if a given key is available or not in the object. returns boolean.
+
+}
