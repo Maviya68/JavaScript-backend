@@ -18,3 +18,15 @@ const my = "Every green bus drives fast.";
 // console.log(my.substring(my.length-2,my.length-1));
 // console.log(my.slice(-2,-1))
 // console.log(my.at(-2))
+let mydate = new Date()
+
+// console.log(mydate.toDateString());
+// console.log(mydate.toTimeString());
+// console.log(mydate.toISOString());
+// console.log(mydate.toJSON());
+// console.log(mydate.toLocaleDateString());
+
+let a = [1,2]
+a.push(3)
+
+console.log(a);

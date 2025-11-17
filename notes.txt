@@ -21,3 +21,20 @@ Use backtick(``) string interpolation => (`-string-${var}-string-`)
 (Math.floor(Math.random() * (max-min+1)) + min)
 
 
+Dates In JS 
+* In the Date(constuctor) we can also set any specific date we want.
+* Various methods are given by date object to get date in different formats.
+* We can customize the dates when using ToLocaleString method using its parameters. // Try it.
+
+Arrays 
+Shallow Copy => same reefernce point.
+Deep Copy => different reefernce point.
+
+slice(original array remains same) vs splice(takes the selection from the original array so it is left changed , also includes the end index which slice doesn't) 
+
+Objects 
+values of object properties can also be accessed thorugh object_name["key_in_string"]
+* Adding a symbol as a key in a object also is done by defining the key as { [symbol_name] : value }
+why use symbols here ?? => dont know right now.
+
+Object.freeze(object_name) => makes all properties unchangeable in the future / constant maybe
