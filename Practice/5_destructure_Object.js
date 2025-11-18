@@ -1,6 +1,7 @@
-course = {
+let course = {
     courseName : 'JavaScrpt',
     courseType : 'Programming',
     courseInstructor : 'Hitesh'
 }
-clg
+const {courseType : cn} = course;
+console.log(cn);

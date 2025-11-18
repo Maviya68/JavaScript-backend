@@ -50,3 +50,11 @@ Object.values(obj_name) returns all the values in a string array.
 obj_name.hasOwnProperty() => tells us if a given key is available or not in the object. returns boolean.
 
 }
+
+Destructuring objects => gives a smaller and simpler syntax for taking out properties using without object name and if we define a reference then we can use that reference also.
+
+=> const {property_name | : nick_name (optional)} = object_name
+
+... has two names Rest Operator and Spread Operator according to its use case.
+inside function parameter before a parameter = Rest Operator.
+before an array = Spread Operator.
