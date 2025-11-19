@@ -58,3 +58,14 @@ Destructuring objects => gives a smaller and simpler syntax for taking out prope
 ... has two names Rest Operator and Spread Operator according to its use case.
 inside function parameter before a parameter = Rest Operator.
 before an array = Spread Operator.
+
+
+arrow function notation :
+
+normal : (parameter(s)) => {}
+shorthand for return only body : (parameter(s)) => (-any value to be returned/even Objects-)
+If we use the above notation : 
+1. We dont have to use the return keyword.
+2. everything inside '()' will be returned 
+eg : const add = (num1,num2) => (num1+num2)
+log(add);
